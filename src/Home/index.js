@@ -1,13 +1,11 @@
 import React,{useState} from 'react';
 import { StyleSheet, View, TextInput, TouchableOpacity, Modal } from 'react-native';
-import * as Animatable from 'react-native-animatable';
 
-import Produto from '../produtos';
+import Cliente from '../Cliente';
 
 export default function Home() {
     const [cliente, setCliente] = useState([]);
     const [input, setInput] = useState() ;
-    const [open, setOpen] = useState(false);
 
 
     function validarCli() {

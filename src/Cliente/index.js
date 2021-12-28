@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import { StyleSheet, View, TextInput, TouchableOpacity } from 'react-native';
 
 
-export default function Produto(){
+export default function Cliente(){
     return(
         <View style={styles. prodArea}>
             <Text>Teste</Text>
